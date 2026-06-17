@@ -5,24 +5,24 @@ E-Learning Purchase Analysis using MySQL
 MySQL-based data analysis project for an e-learning purchases using joins, subqueries, CTEs, views, and aggregate functions.
 
 ## Project Overview
-The online learning platform offers multiplecourses to learners from different countries. 
-Each learner can purchase multiple courses. 
-This project uses relational database concepts and SQL queries to analyze purchase patterns and generate meaningful business insights.
+- The online learning platform offers multiplecourses to learners from different countries. 
+- Each learner can purchase multiple courses. 
+- This project uses relational database concepts and SQL queries to analyze purchase patterns and generate meaningful business insights.
 
 ## Problem Statement
-Analyze the purchase data of an e-learning platform to identify:
-Sales trends
-Learner behavior
-Popular course categories
-Revenue generation
-Purchase frequency
+- Analyze the purchase data of an e-learning platform to identify:
+- Sales trends
+- Learner behavior
+- Popular course categories
+- Revenue generation
+- Purchase frequency
 
 ## Objectives
-Design a relational database.
-Create and manage tables using SQL.
-Insert sample data.
-Perform data analysis using SQL queries.
-Generate reports for business decision-making.
+- Design a relational database.
+- Create and manage tables using SQL.
+- Insert sample data.
+- Perform data analysis using SQL queries.
+- Generate reports for business decision-making.
 
 ## Database Schema
 | Table Name | Description |
@@ -64,27 +64,29 @@ Generate reports for business decision-making.
 <img width="944" height="587" alt="Screenshot 2026-06-17 153929" src="https://github.com/user-attachments/assets/bfea460a-80c9-4c13-b6f3-ab2523485ddb" />
 
 ## SQL Concepts Used
-- DDL Commands (CREATE, ALTER, DROP)
-- DML Commands (INSERT, UPDATE, DELETE)
+- DDL Commands 
+- DML Commands 
 - SELECT Queries
-- Aggregate Functions (SUM, AVG, COUNT, MAX, MIN)
+- Aggregate Functions (SUM, AVG, COUNT)
+- Null Handling
 - GROUP BY and HAVING
 - JOINS
-- String Functions
-- Date Functions
 - Subqueries
+- Common Table Expressions
+- Case
+- View
 
 ## Key Insights
-Most purchased course category.
-Top spending learners.
-Country-wise purchases.
-Total revenue generated.
-Popular courses.
+- Most purchased course category.
+- Top spending learners.
+- Country-wise purchases.
+- Total revenue generated.
+- Popular courses.
 
 ## Conclusion
 This project transformed raw purchase data into meaningful business insights using MySQL. It highlighted learner spending patterns, popular courses, and revenue trends, demonstrating the practical application of SQL for data analysis and decision-making in an e-learning platform.
 
 ## Author
-Uma Maheshwari
-Aspiring Data Analyst |MySQL | Python | Power BI | Excel|
+- Uma Maheshwari
+- Aspiring Data Analyst |MySQL | Python | Power BI | Excel|
 
