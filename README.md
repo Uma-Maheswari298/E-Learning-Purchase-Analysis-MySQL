@@ -5,9 +5,26 @@ E-Learning Purchase Analysis using MySQL
 MySQL-based data analysis project for an e-learning purchases using joins, subqueries, CTEs, views, and aggregate functions.
 
 ## Project Overview
-A MySQL-based data analytics project that examines e-learning platform purchases to analyze learner behavior, course popularity, revenue trends, and category performance using advanced SQL queries and database concepts.
+The online learning platform offers multiplecourses to learners from different countries. 
+Each learner can purchase multiple courses. 
+This project uses relational database concepts and SQL queries to analyze purchase patterns and generate meaningful business insights.
 
-## Database Tables
+## Problem Statement
+Analyze the purchase data of an e-learning platform to identify:
+Sales trends
+Learner behavior
+Popular course categories
+Revenue generation
+Purchase frequency
+
+## Objectives
+Design a relational database.
+Create and manage tables using SQL.
+Insert sample data.
+Perform data analysis using SQL queries.
+Generate reports for business decision-making.
+
+## Database Schema
 | Table Name | Description |
 |------------|-------------|
 | learner | Stores learner details such as ID, name, and country. |
@@ -37,12 +54,14 @@ A MySQL-based data analytics project that examines e-learning platform purchases
 
 | Column Name | Data Type | Constraints |
 |------------|-----------|-------------|
-| Purchase_Id | INT | Primary Key |
+| Purchase_Id | INT | Primary Key,Auto Increment |
 | Learner_Id | INT | Foreign Key |
 | Course_Id | INT | Foreign Key |
 | Purchase_Date | DATE | NOT NULL |
 | Quantity | INT | NOT NULL |
 
+## ER-Diagram
+<img width="944" height="587" alt="Screenshot 2026-06-17 153929" src="https://github.com/user-attachments/assets/bfea460a-80c9-4c13-b6f3-ab2523485ddb" />
 
 ## SQL Concepts Used
 - DDL Commands (CREATE, ALTER, DROP)
@@ -55,6 +74,17 @@ A MySQL-based data analytics project that examines e-learning platform purchases
 - Date Functions
 - Subqueries
 
+## Key Insights
+Most purchased course category.
+Top spending learners.
+Country-wise purchases.
+Total revenue generated.
+Popular courses.
+
+## Conclusion
+This project transformed raw purchase data into meaningful business insights using MySQL. It highlighted learner spending patterns, popular courses, and revenue trends, demonstrating the practical application of SQL for data analysis and decision-making in an e-learning platform.
+
 ## Author
 Uma Maheshwari
+Aspiring Data Analyst |MySQL | Python | Power BI | Excel|
 
